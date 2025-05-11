@@ -1,0 +1,1 @@
+This is going to be my first landing page while learning with the odin project. i will try my best to complete the assignment to the best of my abilities! 

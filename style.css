@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --white: #F9FAF8;
+    --navy-blue: #1F2937;
+    --blue: #3882f6;
+    --light-blue: #E5E7EB;
+}
+
+header, .section-one, .section-two, .quote-section, .call-section, footer, .attribution {
+    padding: 0px 100px;
+}
+
+body {
+    
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--navy-blue);
+    color: var(--white);
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: var(--white);
+    font-weight: 900;
+    margin-top: 0px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: var(--navy-blue);
+    margin: 50px 0px;
+}
+
+button {
+    background-color: var(--blue);
+    padding: 2px 20px;
+    border-radius: 5px;
+    border: none;
+    color: var(--white);
+    margin-top: 5px;
+}
+
+footer {
+    background-color: var(--navy-blue);
+    color: var(--white);
+    padding: 30px 0px;
+    text-align: center;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.section-one {
+    background-color: var(--navy-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.section-one-left {
+    color: var(--white);
+    width: 400px;
+}
+
+.section-one-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one-right img {
+    width: 500px;
+}
+
+.section-two {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.card {
+    max-width: 200px;
+    text-align: center;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-blue);
+    color: var(--navy-blue);
+    font-size: 36px;
+    font-style: italic;
+    padding: 100px 350px;
+}
+
+.thor {
+    align-self: end;
+    font-weight: 900;
+}
+
+.call-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--blue);
+    color: var(--white);
+    margin: 50px 330px;
+    border-radius: 7px;
+    padding: 30px 0px;
+}
+
+.bold-call {
+    font-weight: 900;
+}
+
+.call-section button {
+    border: 1px solid white;
+}
+.attribution {
+    margin-bottom: 30px;
+    background-color: #1F2937;
+    color: grey;
+    text-align: center;
+    padding: 30px 30px;
+}
